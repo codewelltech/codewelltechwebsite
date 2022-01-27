@@ -8,67 +8,8 @@ body {
 * {
   box-sizing: border-box;
 }
-h2 {
-  margin: 0 auto;
-}
-/* Mobile First CSS */
-.container {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  padding: 10px;
-  position: relative;
-  justify-content: center;
-  opacity: 0;
-  transition: all 0.1s ease-in-out;
-}
-.item {
-  color: inherit;
-  display: flex;
-  padding: 10px;
-  margin: 5px 0px;
-  height: 450px; /* Fallback for browsers that do not support Custom Properties */
-  flex-direction: column;
-  background-color: #f1f1f1;
-}
-.item .video {
-  padding: 10px;
-  width: 100%;
-  font-size: 1.5rem;
-  box-sizing: border-box;
-}
-
-.title {
-  color: inherit;
-  height: auto;
-  background: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #e4dfdf;
-}
-.btn {
-  height: 10%;
-  text-align: right;
-}
-.timeline {
-  color: inherit;
-  height: 28%;
-  max-height: 30%;
-  overflow: auto;
-}
-.item .video {
-  height: 54%;
-  border: 2px solid #e1e1e1;
-}
-iframe {
-  height: 100%;
-  width: 100%;
-}
-.item:hover {
-  box-shadow: 0px 0px 8px 4px #a59c9c;
-  border-top-right-radius: 15px;
-}
 .loading {
+  font-size: 1.5rem;
   background-color: rgb(254, 254, 255);
   box-shadow: 0px 0px 20px 5px #1a118f;
   border-radius: 4px;
@@ -101,7 +42,7 @@ a {
   display: inline-block;
   font-size: 2em;
   font-weight: 800;
-  color: royalblue;
+  color: #fff;
   overflow: hidden;
   background: linear-gradient(
     to right,
@@ -120,81 +61,10 @@ a {
 a:hover {
   background-position: 0 100%;
 }
-button {
-  border-radius: 3px;
-  color: #fff;
-  background-color: #0069d9;
-  border: 1px solid #0062cc;
-  padding: 5px;
-  text-align: center;
-  cursor: pointer;
-}
-button:disabled {
-  cursor: default;
-  background-color: rgb(78, 80, 83);
-}
-ul {
-  color: inherit;
-  padding-left: 25px;
-  padding-top: 0px;
-  margin: 0 auto;
-}
-ul li {
-  padding: 4px 1px;
-  font-size: 1.5rem;
-  color: inherit;
-}
-@media only screen and (orientation: landscape) and (max-width: 815px) {
-  .item {
-    font-size: 1rem;
-    height: 100vh;
-  }
-}
+
 @media only screen and (min-width: 815px) {
   * {
     margin: 0;
-  }
-  .container {
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
-    padding: 10px;
-    flex-wrap: wrap;
-    position: relative;
-  }
-  .item {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    height: 400px;
-    margin: 10px;
-    width: 400px;
-    /* align-self: flex-start;     */
-    background-color: #f1f1f1;
-  }
-  .item .intro,
-  .item .video {
-    padding: 10px;
-    width: 100%;
-    font-size: 1rem;
-  }
-  .title {
-    height: auto;
-    box-sizing: border-box;
-    width: 100%;
-    font-size: 1rem;
-  }
-  .item .intro {
-    height: 35%;
-  }
-  .item .video {
-    box-sizing: border-box;
-    height: 65%;
-    background: #fff;
-  }
-  iframe {
-    height: 100%;
-    width: 100%;
   }
   .loading {
     background-color: rgb(255, 254, 254);
@@ -206,14 +76,62 @@ ul li {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  ul {
-    padding-left: 20px;
-    padding-top: 10px;
-    margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "arial", heletica, sans-serif;
+  font-size: 12px;
+  background: #2980b9 url(moving.PNG) repeat 0 0;
+  -webkit-animation: 220s linear 0s normal none infinite animate;
+  -moz-animation: 20s linear 0s normal none infinite animate;
+  -ms-animation: 20s linear 0s normal none infinite animate;
+  -o-animation: 20s linear 0s normal none infinite animate;
+  animation: 20s linear 0s normal none infinite animate;
+}
+
+@-webkit-keyframes animate {
+  from {
+    background-position: 0 0;
   }
-  ul li {
-    padding: 4px 1px;
-    font-size: 1rem;
-    margin: 0;
+  to {
+    background-position: 500px 0;
+  }
+}
+
+@-moz-keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
+}
+
+@-ms-keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
+}
+
+@-o-keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
+}
+
+@keyframes animate {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 500px 0;
   }
 }
