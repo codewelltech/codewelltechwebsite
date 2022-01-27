@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "cat":"js",
+        "title":"Hide and Show Div / Element using JavaScript Css",
+        "url":"https://www.youtube.com/embed/R-_TZb0_oJA",
+        "sc":false,
+        "info":["Hide element using JavaScript"," Why toggle() function ","Toggle() with boolean parameter"]
+    },
+    {
+        "id":2,
+        "cat":"js",
+        "title":"Validate Form using JavaScript",
+        "url":"https://www.youtube.com/embed/YMBGvvE47I8",
+        "sc":true,
+        "info":["Create form using html","Style form using css","Validate using JS"]
+    },
+    {
+        "id":3,
+        "cat":"js",
+        "title":"How to Lazy Load Images using JavaScript",
+        "url":"https://www.youtube.com/embed/rENxM-2Ek9E",
+        "sc":true,
+        "info":["implement Lazy Loading","Intersection Observer API"," Adding Blur Effect"]
+    },
+    {
+        "id":4,
+        "cat":"css",
+        "title":"Create Beautiful and Responsive Cards with Flexbox CSS ",
+        "url":"https://www.youtube.com/embed/0T0GQmnVGZs",
+        "sc":false,
+        "info":["Create Cards -HTML","Style with Flexbox","Responsive Cards"]
+    },
+    {
+        "id":5,
+        "cat":"js",
+        "title":"This in JavaScript",
+        "url":"https://www.youtube.com/embed/dWZIPIc3szg",
+        "sc":false,
+        "info":["What is this Keyword","this in Arrow Function"," Function Scope vs This Scope"]
+    },
+    {
+        "id":6,
+        "cat":"js",
+        "title":"Object.assign() Method in JavaScript",
+        "url":"https://www.youtube.com/embed/t8Tamabyvzw",
+        "sc":false,
+        "info":["Introduction to Object.assign()","Using Object.assign()","Realtime scenario where Object.assign"]
+    },
+    {
+        "id":8,
+        "cat":"js",
+        "title":"3 Ways to Clone Objects in JavaScript",
+        "url":"https://www.youtube.com/embed/q0YZytQlL_w",
+        "sc":false,
+        "info":["Objects are reference type","using Object.assign()","using spread operator","using JSON approach"]
+    },
+    {
+        "id":9,
+        "cat":"hcj",
+        "title":"HTML CSS JavaScript For Beginners",
+        "url":"https://www.youtube.com/embed/W0mvgvYzSso",
+        "sc":false,
+        "info":["Some basics of HTML code","Applying style using css","Hide and show sections using JS"]
+    },
+    {
+        "id":10,
+        "cat":"js",
+        "title":"Arrays in JavaScript",
+        "url":"https://www.youtube.com/embed/YVFaLFIvPSc",
+        "sc":false,
+        "info":["Introduction to Arrays","Array methods","Iterating arrays"]
+    }   
+]
